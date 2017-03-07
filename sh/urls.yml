@@ -15,6 +15,7 @@ urls:
   - https://github.com/mcveat/event-sourcing-cqrs
   - https://github.com/mishudark/eventhus
   - https://github.com/thebookofeveryone/cqrs
+  - https://github.com/rogerclotet/graceful-restart
   - https://github.com/sunrongya/milife
   - https://github.com/Vizidrix/gocqrs
   - https://github.com/xtraclabs/appreg
