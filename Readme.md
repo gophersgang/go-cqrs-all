@@ -13,7 +13,7 @@ The main purpose is reading / learning / teaching.
 
 
 ### URLS
-```
+
 - https://github.com/andrewwebber/cqrs
 - https://github.com/atitsbest/go_cqrs
 - https://github.com/berkaroad/ddd
@@ -29,4 +29,3 @@ The main purpose is reading / learning / teaching.
 - https://github.com/Vizidrix/gocqrs
 - https://github.com/xozrc/cqrs
 - https://github.com/xozrc/eventsourcing
-```
