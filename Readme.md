@@ -18,11 +18,13 @@ The main purpose is reading / learning / teaching.
 - https://github.com/atitsbest/go_cqrs
 - https://github.com/berkaroad/ddd
 - https://github.com/berkaroad/ioc
+- https://github.com/botchniaque/eventsourcing-cqrs-go
 - https://github.com/cloudnativego/drones-events
 - https://github.com/cloudnativego/drones-query
 - https://github.com/diegogub/gocqrs
 - https://github.com/duskhacker/cqrsnu
 - https://github.com/egonelbre/guestlist
+- https://github.com/eventsourcedb/eventsourcedb
 - https://github.com/f2prateek/coi
 - https://github.com/hellofresh/goengine
 - https://github.com/isuruceanu/gocqrs
@@ -39,8 +41,10 @@ The main purpose is reading / learning / teaching.
 - https://github.com/rogerclotet/graceful-restart
 - https://github.com/saem/afterme
 - https://github.com/sclasen/swfsm
+- https://github.com/sunrongya/eventsourcing
 - https://github.com/sunrongya/milife
 - https://github.com/thebookofeveryone/cqrs
+- https://github.com/vizidrix/eventstore
 - https://github.com/Vizidrix/gocqrs
 - https://github.com/xozrc/cqrs
 - https://github.com/xozrc/eventsourcing
