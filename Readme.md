@@ -14,4 +14,19 @@ The main purpose is reading / learning / teaching.
 
 ### URLS
 ```
+- https://github.com/andrewwebber/cqrs
+- https://github.com/atitsbest/go_cqrs
+- https://github.com/berkaroad/ddd
+- https://github.com/egonelbre/guestlist
+- https://github.com/jetbasrawi/go.geteventstore
+- https://github.com/jetbasrawi/go.geteventstore.testfeed
+- https://github.com/jostly/cqrs-bookstore-go
+- https://github.com/looplab/eventhorizon
+- https://github.com/mbucc/cqrs
+- https://github.com/mcveat/event-sourcing-cqrs
+- https://github.com/mishudark/eventhus
+- https://github.com/thebookofeveryone/cqrs
+- https://github.com/Vizidrix/gocqrs
+- https://github.com/xozrc/cqrs
+- https://github.com/xozrc/eventsourcing
 ```
