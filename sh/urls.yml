@@ -21,6 +21,7 @@ urls:
   - https://github.com/thebookofeveryone/cqrs
   - https://github.com/rogerclotet/cqrs
   - https://github.com/rogerclotet/graceful-restart
+  - https://github.com/pjvds/go-cqrs
   - https://github.com/saem/afterme
   - https://github.com/sclasen/swfsm
   - https://github.com/sunrongya/milife
