@@ -1,5 +1,6 @@
 urls:
   - https://github.com/andrewwebber/cqrs
+  - https://github.com/andrewwebber/cqrs-scaleout
   - https://github.com/atitsbest/go_cqrs
   - https://github.com/berkaroad/ddd
   - https://github.com/berkaroad/ioc
