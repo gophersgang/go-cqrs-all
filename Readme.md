@@ -1,6 +1,6 @@
-## GoCQRS-All-In-One: meta-collection of CQRS examples in go
+## GoCQRS-All-In-One: meta-collection of CQRS examples in GO
 
-A handy reference of common idioms and patterns how to implement CQRS / ES in Go.
+A handy reference of common idioms and patterns how to implement CQRS / ES in GO.
 The main purpose is reading / learning / teaching.
 
 ### Background
