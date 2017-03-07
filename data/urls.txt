@@ -26,6 +26,7 @@ https://github.com/pjvds/go-cqrs
 https://github.com/saem/afterme
 https://github.com/sclasen/swfsm
 https://github.com/sunrongya/milife
+https://github.com/vizidrix/eventstore
 https://github.com/Vizidrix/gocqrs
 https://github.com/xtraclabs/appreg
 https://github.com/xozrc/cqrs
