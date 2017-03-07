@@ -2,6 +2,7 @@ urls:
   - https://github.com/andrewwebber/cqrs
   - https://github.com/atitsbest/go_cqrs
   - https://github.com/berkaroad/ddd
+  - https://github.com/diegogub/gocqrs
   - https://github.com/egonelbre/guestlist
   - https://github.com/jetbasrawi/go.geteventstore
   - https://github.com/jetbasrawi/go.geteventstore.testfeed
