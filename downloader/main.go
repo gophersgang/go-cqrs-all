@@ -33,7 +33,7 @@ func main() {
 }
 
 func loadUrls() []string {
-	return file2lines("sh/urls.txt")
+	return file2lines("data/urls.txt")
 }
 
 func checkRepo(url string) error {

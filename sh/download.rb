@@ -91,7 +91,7 @@ class Downloader
   end
 
   def config_file
-    File.join(__dir__, "urls.txt")
+    File.join("data", "urls.txt")
   end
 end
 
