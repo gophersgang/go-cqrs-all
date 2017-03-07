@@ -1,14 +1,12 @@
 package main
 
 import (
+	"bufio"
 	"fmt"
-	"io/ioutil"
 	"os"
 	"os/exec"
 	"strings"
 	"sync"
-
-	"github.com/ghodss/yaml"
 )
 
 func check(e error) {
@@ -17,41 +15,30 @@ func check(e error) {
 	}
 }
 
-// Config for urls
-type Config struct {
-	Urls []string `json:"urls"`
-}
-
 func main() {
-	fmt.Println(os.Getwd())
 	s := newSemaphore(20)
 	var wg sync.WaitGroup
 	urls := loadUrls()
-	wg.Add(len(urls))
 	for _, url := range urls {
 		s.Acquire(1)
+		wg.Add(1)
 		a := url
 		go func() {
 			defer wg.Done()
-			checkRepo(a)
 			defer s.Release(1)
+			checkRepo(a)
 		}()
 	}
 	wg.Wait()
 }
 
 func loadUrls() []string {
-	dat, err := ioutil.ReadFile("sh/urls.yml")
-	check(err)
-	c := Config{}
-	yaml.Unmarshal(dat, &c)
-	return c.Urls
+	return file2lines("sh/urls.txt")
 }
 
 func checkRepo(url string) error {
 	repo := newRepo(url)
-	repo.Run()
-	return nil
+	return repo.Run()
 }
 
 /*****************************************************************
@@ -147,4 +134,32 @@ func (s Semaphore) Release(n int) {
 	for i := 0; i < n; i++ {
 		<-s
 	}
+}
+
+/*
+simple lines reader
+*/
+func file2lines(filePath string) []string {
+	f, err := os.Open(filePath)
+	if err != nil {
+		panic(err)
+	}
+	defer f.Close()
+
+	var lines []string
+	scanner := bufio.NewScanner(f)
+	for scanner.Scan() {
+		if t := scanner.Text(); validURL(t) {
+			lines = append(lines, t)
+		}
+	}
+	if err := scanner.Err(); err != nil {
+		fmt.Fprintln(os.Stderr, err)
+	}
+
+	return lines
+}
+
+func validURL(l string) bool {
+	return !strings.Contains(l, " ") && len(l) != 0
 }
