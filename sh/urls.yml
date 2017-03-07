@@ -17,6 +17,7 @@ urls:
   - https://github.com/thebookofeveryone/cqrs
   - https://github.com/rogerclotet/cqrs
   - https://github.com/rogerclotet/graceful-restart
+  - https://github.com/sclasen/swfsm
   - https://github.com/sunrongya/milife
   - https://github.com/Vizidrix/gocqrs
   - https://github.com/xtraclabs/appreg
