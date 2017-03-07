@@ -24,4 +24,5 @@ urls:
   - https://github.com/xtraclabs/appreg
   - https://github.com/xozrc/cqrs
   - https://github.com/xozrc/eventsourcing
+  - https://github.com/xtracdev/oraeventstore
   - https://github.com/YuukanOO/go-toolbelt
