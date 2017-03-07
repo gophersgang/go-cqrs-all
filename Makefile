@@ -1,2 +1,2 @@
 run:
-	go run downloader/main.go
+	time go run downloader/main.go
