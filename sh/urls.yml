@@ -2,6 +2,7 @@ urls:
   - https://github.com/andrewwebber/cqrs
   - https://github.com/atitsbest/go_cqrs
   - https://github.com/berkaroad/ddd
+  - https://github.com/berkaroad/ioc
   - https://github.com/cloudnativego/drones-events
   - https://github.com/cloudnativego/drones-query
   - https://github.com/diegogub/gocqrs
