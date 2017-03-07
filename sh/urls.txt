@@ -33,6 +33,3 @@ https://github.com/xozrc/eventsourcing
 https://github.com/xtracdev/oraeventstore
 https://github.com/xtraclabs/es-atom-feed-data
 https://github.com/YuukanOO/go-toolbelt
-
-
-

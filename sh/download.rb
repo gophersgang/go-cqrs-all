@@ -87,11 +87,11 @@ class Downloader
   end
 
   def urls
-    @urls ||= YAML.load_file(config_file)["urls"]
+    @urls ||= File.read(config_file).split("\n")
   end
 
   def config_file
-    File.join(__dir__, "urls.yml")
+    File.join(__dir__, "urls.txt")
   end
 end
 
