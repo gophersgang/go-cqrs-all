@@ -24,7 +24,7 @@ type Config struct {
 
 func main() {
 	fmt.Println(os.Getwd())
-	s := newSemaphore(5)
+	s := newSemaphore(20)
 	var wg sync.WaitGroup
 	urls := loadUrls()
 	wg.Add(len(urls))
@@ -51,7 +51,6 @@ func loadUrls() []string {
 func checkRepo(url string) error {
 	repo := newRepo(url)
 	repo.Run()
-	// time.Sleep(500 * time.Millisecond)
 	return nil
 }
 
@@ -69,13 +68,21 @@ func newRepo(url string) *repo {
 	return &repo{url: url}
 }
 
+// Run is the only public method for repos
+func (r *repo) Run() error {
+	if r.exists() {
+		return r.refresh()
+	}
+	return r.checkout()
+}
+
 // initial git checkout
 func (r *repo) checkout() error {
 	fmt.Printf("checking out %s\n", r.fullPath())
 	cmd := fmt.Sprintf("git clone %s %s", r.url, r.fullPath())
 	out, err := exec.Command("sh", "-c", cmd).Output()
 	check(err)
-	fmt.Println(out)
+	fmt.Println(r.projectName(), "\n---\n", string(out))
 	return nil
 }
 
@@ -83,9 +90,9 @@ func (r *repo) checkout() error {
 func (r *repo) refresh() error {
 	fmt.Printf("refreshing %s\n", r.fullPath())
 	cmd := fmt.Sprintf("cd %s; git pull", r.fullPath())
-	_, err := exec.Command("sh", "-c", cmd).Output()
+	out, err := exec.Command("sh", "-c", cmd).Output()
 	check(err)
-	// fmt.Println(out)
+	fmt.Println(r.projectName(), "\n---\n", string(out))
 	return nil
 }
 
@@ -95,13 +102,6 @@ func (r *repo) exists() bool {
 		return true
 	}
 	return false
-}
-
-func (r *repo) Run() error {
-	if r.exists() {
-		return r.refresh()
-	}
-	return r.checkout()
 }
 
 // the name of the resulting folder (unique)
