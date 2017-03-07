@@ -9,9 +9,7 @@ The main purpose is reading / learning / teaching.
 
 ### Setup
 
-    $ sh/download.rb (ruby)
-    $ go run downloader/main.go (go)
-
+    $ make run
 
 ### URLS
 
