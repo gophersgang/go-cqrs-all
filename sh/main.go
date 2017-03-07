@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"io/ioutil"
 	"os"
+	"os/exec"
 	"strings"
 	"sync"
-	"time"
 
 	"github.com/ghodss/yaml"
 )
@@ -51,7 +51,7 @@ func loadUrls() []string {
 func checkRepo(url string) error {
 	repo := newRepo(url)
 	repo.Run()
-	time.Sleep(500 * time.Millisecond)
+	// time.Sleep(500 * time.Millisecond)
 	return nil
 }
 
@@ -72,12 +72,20 @@ func newRepo(url string) *repo {
 // initial git checkout
 func (r *repo) checkout() error {
 	fmt.Printf("checking out %s\n", r.fullPath())
+	cmd := fmt.Sprintf("git clone %s %s", r.url, r.fullPath())
+	out, err := exec.Command("sh", "-c", cmd).Output()
+	check(err)
+	fmt.Println(out)
 	return nil
 }
 
 // refresh existing repo
 func (r *repo) refresh() error {
 	fmt.Printf("refreshing %s\n", r.fullPath())
+	cmd := fmt.Sprintf("cd %s; git pull", r.fullPath())
+	_, err := exec.Command("sh", "-c", cmd).Output()
+	check(err)
+	// fmt.Println(out)
 	return nil
 }
 
