@@ -34,6 +34,7 @@ https://github.com/Vizidrix/gocqrs
 https://github.com/xtraclabs/appreg
 https://github.com/xozrc/cqrs
 https://github.com/xozrc/eventsourcing
+https://github.com/xtracdev/goes
 https://github.com/xtracdev/oraeventstore
 https://github.com/xtraclabs/es-atom-feed-data
 https://github.com/YuukanOO/go-toolbelt
