@@ -19,7 +19,8 @@ type repoInfo struct {
 }
 
 func (ri repoInfo) Markdown() string {
-	return fmt.Sprintf("- %s - %s <br/> ( %s )", ri.url, ri.description, ri.lastcommit)
+	shortcommit := ri.lastcommit[0:10]
+	return fmt.Sprintf("- %s - %s <br/> ( %s )", ri.url, ri.description, shortcommit)
 }
 
 type reposByLastcommit []repoInfo
