@@ -18,8 +18,8 @@ type repoInfo struct {
 	lastcommit  string
 }
 
-func (ri repoInfo) String() string {
-	return fmt.Sprintf("- %s - %s ( %s )", ri.url, ri.description, ri.lastcommit)
+func (ri repoInfo) Markdown() string {
+	return fmt.Sprintf("- %s - <br/> %s <br/> ( %s )", ri.url, ri.description, ri.lastcommit)
 }
 
 type reposByLastcommit []repoInfo
@@ -27,6 +27,12 @@ type reposByLastcommit []repoInfo
 func (ris reposByLastcommit) Len() int           { return len(ris) }
 func (ris reposByLastcommit) Less(i, j int) bool { return ris[i].lastcommit > ris[j].lastcommit }
 func (ris reposByLastcommit) Swap(i, j int)      { ris[i], ris[j] = ris[j], ris[i] }
+
+type reposByUrl []repoInfo
+
+func (ris reposByUrl) Len() int           { return len(ris) }
+func (ris reposByUrl) Less(i, j int) bool { return ris[i].url < ris[j].url }
+func (ris reposByUrl) Swap(i, j int)      { ris[i], ris[j] = ris[j], ris[i] }
 
 func main() {
 	var wg sync.WaitGroup
@@ -45,17 +51,17 @@ func main() {
 	}
 	wg.Wait()
 
-	sort.Sort(reposByLastcommit(repos))
-	fmt.Println("\n\n")
+	sort.Sort(reposByUrl(repos))
+	fmt.Print("\n\n")
 	for _, r := range repos {
-		fmt.Println(r)
+		fmt.Println(r.Markdown())
 	}
 }
 
 func process(url string) repoInfo {
 	doc := getDoc(url)
 	repo := repoInfo{
-		url:         url,
+		url:         strings.ToLower(url),
 		description: getDescription(doc),
 		lastcommit:  getLastcommit(doc),
 	}
