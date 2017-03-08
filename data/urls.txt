@@ -4,9 +4,11 @@ https://github.com/atitsbest/go_cqrs
 https://github.com/berkaroad/ddd
 https://github.com/berkaroad/ioc
 https://github.com/botchniaque/eventsourcing-cqrs-go
+https://github.com/cloudnativego/drones-cmds
 https://github.com/cloudnativego/drones-events
 https://github.com/cloudnativego/drones-query
 https://github.com/f2prateek/coi
+https://github.com/diegogub/esgo
 https://github.com/diegogub/gocqrs
 https://github.com/duskhacker/cqrsnu
 https://github.com/egonelbre/guestlist
