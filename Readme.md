@@ -48,6 +48,7 @@ The main purpose is reading / learning / teaching.
 - https://github.com/vizidrix/gocqrs - gocqrs - CQRS (Command Query Responsibility Separation) / ES (Event Sourcing) utilities for Go <br/> ( 2014-10-01 )
 - https://github.com/xozrc/cqrs - cqrs <br/> ( 2016-06-29 )
 - https://github.com/xozrc/eventsourcing - eventsourcing <br/> ( 2016-06-13 )
+- https://github.com/xtracdev/es-data-pub - es-data-pub - Event store publishing <br/> ( 2017-01-03 )
 - https://github.com/xtracdev/goes - goes - Go Event Sourcing <br/> ( 2016-11-22 )
 - https://github.com/xtracdev/oraeventstore - oraeventstore - Golang event store for Oracle <br/> ( 2017-01-04 )
 - https://github.com/xtraclabs/appreg - appreg - Sample application registration app demonstrating event sourcing and CQRS <br/> ( 2016-09-21 )
