@@ -11,10 +11,12 @@ import (
 	"github.com/PuerkitoBio/goquery"
 )
 
-func main() {
-	// title := process("https://github.com/berkaroad/ddd")
-	// fmt.Printf("DONE %s\n", title)
+type repoInfo struct {
+	description string
+	lastcommit  string
+}
 
+func main() {
 	var wg sync.WaitGroup
 	urls := loadUrls()
 	for _, url := range urls {
@@ -29,9 +31,16 @@ func main() {
 	wg.Wait()
 }
 
-func process(url string) string {
+func process(url string) repoInfo {
 	doc := getDoc(url)
-	// Find description
+	repo := repoInfo{
+		description: getDescription(doc),
+		lastcommit:  getLastcommit(doc),
+	}
+	return repo
+}
+
+func getDescription(doc *goquery.Document) string {
 	var content string
 	doc.Find("meta").Each(func(i int, s *goquery.Selection) {
 		name, _ := s.Attr("name")
@@ -39,8 +48,15 @@ func process(url string) string {
 			content, _ = s.Attr("content")
 		}
 	})
-
 	return content
+}
+
+func getLastcommit(doc *goquery.Document) string {
+	var datetime string
+	doc.Find(".commit-tease relative-time").Each(func(i int, s *goquery.Selection) {
+		datetime, _ = s.Attr("datetime")
+	})
+	return datetime
 }
 
 func getDoc(url string) *goquery.Document {
