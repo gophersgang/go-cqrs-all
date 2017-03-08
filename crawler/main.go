@@ -5,6 +5,7 @@ import (
 	"fmt"
 	"log"
 	"os"
+	"sort"
 	"strings"
 	"sync"
 
@@ -12,28 +13,49 @@ import (
 )
 
 type repoInfo struct {
+	url         string
 	description string
 	lastcommit  string
 }
 
+func (ri repoInfo) String() string {
+	return fmt.Sprintf("- %s - %s ( %s )", ri.url, ri.description, ri.lastcommit)
+}
+
+type reposByLastcommit []repoInfo
+
+func (ris reposByLastcommit) Len() int           { return len(ris) }
+func (ris reposByLastcommit) Less(i, j int) bool { return ris[i].lastcommit > ris[j].lastcommit }
+func (ris reposByLastcommit) Swap(i, j int)      { ris[i], ris[j] = ris[j], ris[i] }
+
 func main() {
 	var wg sync.WaitGroup
 	urls := loadUrls()
+	repos := []repoInfo{}
 	for _, url := range urls {
 		wg.Add(1)
 		a := url
 		go func() {
 			defer wg.Done()
-			desc := process(a)
-			fmt.Println(desc)
+			repo := process(a)
+			// fmt.Println(repo)
+			repos = append(repos, repo)
+			fmt.Print(".")
 		}()
 	}
 	wg.Wait()
+
+	sort.Sort(reposByLastcommit(repos))
+	fmt.Println("\n\n")
+	for _, r := range repos {
+		fmt.Println(r)
+	}
 }
 
 func process(url string) repoInfo {
 	doc := getDoc(url)
 	repo := repoInfo{
+		url:         url,
 		description: getDescription(doc),
 		lastcommit:  getLastcommit(doc),
 	}
@@ -52,6 +74,21 @@ func getDescription(doc *goquery.Document) string {
 }
 
 func getLastcommit(doc *goquery.Document) string {
+	if hasIncludedLastcommit(doc) {
+		return getLastcommitIncluded(doc)
+	}
+	return getLastcommitAjax(doc)
+}
+
+func hasIncludedLastcommit(doc *goquery.Document) bool {
+	found := true
+	doc.Find(".commit-loader").Each(func(i int, s *goquery.Selection) {
+		found = false
+	})
+	return found
+}
+
+func getLastcommitIncluded(doc *goquery.Document) string {
 	var datetime string
 	doc.Find(".commit-tease relative-time").Each(func(i int, s *goquery.Selection) {
 		datetime, _ = s.Attr("datetime")
@@ -59,8 +96,19 @@ func getLastcommit(doc *goquery.Document) string {
 	return datetime
 }
 
+func getLastcommitAjax(doc *goquery.Document) string {
+	// extract the ajax url
+	// e.g.: <include-fragment class="commit-tease commit-loader" src="/f2prateek/coi/tree-commit/866dee22e2b11dd9780770c00bae53886d9b4863">
+	s := doc.Find(".commit-loader")
+	path, _ := s.Attr("src")
+	url := "https://github.com" + path
+	ajaxDoc := urlDoc(url)
+	return getLastcommit(ajaxDoc)
+}
+
 func getDoc(url string) *goquery.Document {
 	return urlDoc(url)
+	// return localDoc()
 }
 
 func urlDoc(url string) *goquery.Document {
