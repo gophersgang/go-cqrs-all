@@ -27,7 +27,7 @@ The main purpose is reading / learning / teaching.
 - [cloudnativego/drones-events](https://github.com/cloudnativego/drones-events) - Event Processing Microservice for the Drones Sample <br/> ( 2016-05-24 / 20 commits / 0 stars )
 - [cloudnativego/drones-query](https://github.com/cloudnativego/drones-query) - Implementation of the Query portion of CQRS for the drones sample <br/> ( 2016-05-24 / 13 commits / 0 stars )
 - [diegogub/esgo](https://github.com/diegogub/esgo) - Eventstoring generic driver <br/> ( 2016-07-15 / 6 commits / 0 stars )
-- [diegogub/gocqrs](https://github.com/diegogub/gocqrs) - CQRS bootstrap framework for Go. Basic CRUD events already included. <br/> ( 2017-03-07 / 9 commits / 0 stars )
+- [diegogub/gocqrs](https://github.com/diegogub/gocqrs) - CQRS bootstrap framework for Go. Basic CRUD events already included. <br/> ( 2017-03-09 / 10 commits / 0 stars )
 - [duskhacker/cqrsnu](https://github.com/duskhacker/cqrsnu) -  ---  <br/> ( 2015-10-20 / 26 commits / 0 stars )
 - [egonelbre/guestlist](https://github.com/egonelbre/guestlist) - Go CQRS/ES application reference <br/> ( 2016-05-10 / 7 commits / 1 stars )
 - [eventsourcedb/eventsourcedb](https://github.com/eventsourcedb/eventsourcedb) - EventSourcing storage made easy <br/> ( 2016-05-19 / 19 commits / 1 stars )
@@ -67,52 +67,52 @@ The main purpose is reading / learning / teaching.
 
 ### By Activity
 <!-- ACTIVITY_LIST -->
-- 2017-03-08 - [hellofresh/goengine](https://github.com/hellofresh/goengine)  <br/> Engine provides you all the capabilities to build an Event sourced application in go
-- 2017-03-07 - [diegogub/gocqrs](https://github.com/diegogub/gocqrs)  <br/> CQRS bootstrap framework for Go. Basic CRUD events already included.
-- 2017-02-28 - [looplab/eventhorizon](https://github.com/looplab/eventhorizon)  <br/> CQRS/ES toolkit for Go
-- 2017-02-06 - [mishudark/eventhus](https://github.com/mishudark/eventhus)  <br/> CQRS/Event Sourcing made easy - Go
-- 2017-02-01 - [yuukanoo/go-toolbelt](https://github.com/yuukanoo/go-toolbelt)  <br/> Golang toolbelt aimed at Domain Driven Design
-- 2017-01-17 - [xtracdev/es-atom-pub](https://github.com/xtracdev/es-atom-pub)  <br/> Atom publication services
-- 2017-01-05 - [xtracdev/es-atom-data](https://github.com/xtracdev/es-atom-data)  <br/> Structure published events for atom publication
-- 2017-01-05 - [sunrongya/milife](https://github.com/sunrongya/milife)  <br/> 商品交易项目，演示DDD+TDD+CQRS+Event Sourcing技术
-- 2017-01-05 - [sunrongya/eventsourcing](https://github.com/sunrongya/eventsourcing)  <br/> cqrs+eventsourcing
-- 2017-01-04 - [xtracdev/orapub](https://github.com/xtracdev/orapub)  <br/> Event publishing for the Oracle event store
-- 2017-01-04 - [xtracdev/oraeventstore](https://github.com/xtracdev/oraeventstore)  <br/> Golang event store for Oracle
-- 2017-01-03 - [xtracdev/es-data-pub](https://github.com/xtracdev/es-data-pub)  <br/> Event store publishing
-- 2016-11-22 - [xtracdev/goes](https://github.com/xtracdev/goes)  <br/> Go Event Sourcing
-- 2016-10-27 - [jetbasrawi/go.geteventstore](https://github.com/jetbasrawi/go.geteventstore)  <br/> A Go Client for EventStore HTTP API
-- 2016-10-21 - [sclasen/swfsm](https://github.com/sclasen/swfsm)  <br/> [golang] simple workflow finite state machines
-- 2016-09-23 - [xtraclabs/es-atom-feed-data](https://github.com/xtraclabs/es-atom-feed-data)  <br/> Example atom data feed for event store replication
-- 2016-09-21 - [xtraclabs/appreg](https://github.com/xtraclabs/appreg)  <br/> Sample application registration app demonstrating event sourcing and CQRS
-- 2016-08-31 - [berkaroad/ioc](https://github.com/berkaroad/ioc)  <br/> Inversion of Control (IoC)
-- 2016-08-16 - [rogerclotet/cqrs](https://github.com/rogerclotet/cqrs)  <br/> Basic CQRS implementation in go
-- 2016-08-16 - [rogerclotet/graceful-restart](https://github.com/rogerclotet/graceful-restart)  <br/> This is an effort to show a way of doing live code deployment with 0 downtime in a CQRS environment
-- 2016-08-08 - [jetbasrawi/go.geteventstore.testfeed](https://github.com/jetbasrawi/go.geteventstore.testfeed)  <br/> A mock handler simulating GetEventStore Atom feeds for event streams.
-- 2016-07-15 - [diegogub/esgo](https://github.com/diegogub/esgo)  <br/> Eventstoring generic driver
-- 2016-06-29 - [isuruceanu/gocqrs](https://github.com/isuruceanu/gocqrs)  <br/> Golang implementation of CQRS architectural patern with Event Sourcing
-- 2016-06-29 - [xozrc/cqrs](https://github.com/xozrc/cqrs)  <br/> cqrs
-- 2016-06-13 - [xozrc/eventsourcing](https://github.com/xozrc/eventsourcing)  <br/> eventsourcing
-- 2016-05-24 - [cloudnativego/drones-query](https://github.com/cloudnativego/drones-query)  <br/> Implementation of the Query portion of CQRS for the drones sample
-- 2016-05-24 - [cloudnativego/drones-events](https://github.com/cloudnativego/drones-events)  <br/> Event Processing Microservice for the Drones Sample
-- 2016-05-23 - [cloudnativego/drones-cmds](https://github.com/cloudnativego/drones-cmds)  <br/> Command Handler Service for Drone Army Sample
-- 2016-05-19 - [eventsourcedb/eventsourcedb](https://github.com/eventsourcedb/eventsourcedb)  <br/> EventSourcing storage made easy
-- 2016-05-10 - [egonelbre/guestlist](https://github.com/egonelbre/guestlist)  <br/> Go CQRS/ES application reference
-- 2016-04-21 - [f2prateek/coi](https://github.com/f2prateek/coi)  <br/>  ---
-- 2016-02-26 - [botchniaque/eventsourcing-cqrs-go](https://github.com/botchniaque/eventsourcing-cqrs-go)  <br/> Example event sourcing and CQRS implementation in golang
-- 2016-02-05 - [mcveat/event-sourcing-cqrs](https://github.com/mcveat/event-sourcing-cqrs)  <br/> Example of Event Sourcing and CQRS in golang
-- 2016-01-12 - [thebookofeveryone/cqrs](https://github.com/thebookofeveryone/cqrs)  <br/> CQRS Example
-- 2015-12-20 - [berkaroad/ddd](https://github.com/berkaroad/ddd)  <br/> Domain Driven Design by golang
-- 2015-11-30 - [andrewwebber/cqrs](https://github.com/andrewwebber/cqrs)  <br/> cqrs framework in go
-- 2015-10-20 - [duskhacker/cqrsnu](https://github.com/duskhacker/cqrsnu)  <br/>  ---
-- 2015-10-20 - [jensrantil/gorewind](https://github.com/jensrantil/gorewind)  <br/> This is a port of Rewind to the Go programming language.
-- 2015-07-19 - [mbucc/cqrs](https://github.com/mbucc/cqrs)  <br/> A golang starter kit for working with CQRS.  http://cqrs.nu/
-- 2015-06-02 - [andrewwebber/cqrs-scaleout](https://github.com/andrewwebber/cqrs-scaleout)  <br/> CQRS multi worker example
-- 2015-04-28 - [pjvds/go-cqrs](https://github.com/pjvds/go-cqrs)  <br/> Example of CQRS on domain level in Go
-- 2014-12-13 - [jostly/cqrs-bookstore-go](https://github.com/jostly/cqrs-bookstore-go)  <br/>  ---
-- 2014-10-01 - [vizidrix/gocqrs](https://github.com/vizidrix/gocqrs)  <br/> CQRS (Command Query Responsibility Separation) / ES (Event Sourcing) utilities for Go
-- 2014-07-26 - [vizidrix/eventstore](https://github.com/vizidrix/eventstore)  <br/> An opinionated and very basic, read only, file based event store for GO
-- 2014-06-06 - [atitsbest/go_cqrs](https://github.com/atitsbest/go_cqrs)  <br/> CQRS Test in Go
-- 2014-01-14 - [saem/afterme](https://github.com/saem/afterme)  <br/>  ---
+- [diegogub/gocqrs](https://github.com/diegogub/gocqrs): 2017-03-09 <br/> CQRS bootstrap framework for Go. Basic CRUD events already included.
+- [hellofresh/goengine](https://github.com/hellofresh/goengine): 2017-03-08 <br/> Engine provides you all the capabilities to build an Event sourced application in go
+- [looplab/eventhorizon](https://github.com/looplab/eventhorizon): 2017-02-28 <br/> CQRS/ES toolkit for Go
+- [mishudark/eventhus](https://github.com/mishudark/eventhus): 2017-02-06 <br/> CQRS/Event Sourcing made easy - Go
+- [yuukanoo/go-toolbelt](https://github.com/yuukanoo/go-toolbelt): 2017-02-01 <br/> Golang toolbelt aimed at Domain Driven Design
+- [xtracdev/es-atom-pub](https://github.com/xtracdev/es-atom-pub): 2017-01-17 <br/> Atom publication services
+- [xtracdev/es-atom-data](https://github.com/xtracdev/es-atom-data): 2017-01-05 <br/> Structure published events for atom publication
+- [sunrongya/milife](https://github.com/sunrongya/milife): 2017-01-05 <br/> 商品交易项目，演示DDD+TDD+CQRS+Event Sourcing技术
+- [sunrongya/eventsourcing](https://github.com/sunrongya/eventsourcing): 2017-01-05 <br/> cqrs+eventsourcing
+- [xtracdev/orapub](https://github.com/xtracdev/orapub): 2017-01-04 <br/> Event publishing for the Oracle event store
+- [xtracdev/oraeventstore](https://github.com/xtracdev/oraeventstore): 2017-01-04 <br/> Golang event store for Oracle
+- [xtracdev/es-data-pub](https://github.com/xtracdev/es-data-pub): 2017-01-03 <br/> Event store publishing
+- [xtracdev/goes](https://github.com/xtracdev/goes): 2016-11-22 <br/> Go Event Sourcing
+- [jetbasrawi/go.geteventstore](https://github.com/jetbasrawi/go.geteventstore): 2016-10-27 <br/> A Go Client for EventStore HTTP API
+- [sclasen/swfsm](https://github.com/sclasen/swfsm): 2016-10-21 <br/> [golang] simple workflow finite state machines
+- [xtraclabs/es-atom-feed-data](https://github.com/xtraclabs/es-atom-feed-data): 2016-09-23 <br/> Example atom data feed for event store replication
+- [xtraclabs/appreg](https://github.com/xtraclabs/appreg): 2016-09-21 <br/> Sample application registration app demonstrating event sourcing and CQRS
+- [berkaroad/ioc](https://github.com/berkaroad/ioc): 2016-08-31 <br/> Inversion of Control (IoC)
+- [rogerclotet/cqrs](https://github.com/rogerclotet/cqrs): 2016-08-16 <br/> Basic CQRS implementation in go
+- [rogerclotet/graceful-restart](https://github.com/rogerclotet/graceful-restart): 2016-08-16 <br/> This is an effort to show a way of doing live code deployment with 0 downtime in a CQRS environment
+- [jetbasrawi/go.geteventstore.testfeed](https://github.com/jetbasrawi/go.geteventstore.testfeed): 2016-08-08 <br/> A mock handler simulating GetEventStore Atom feeds for event streams.
+- [diegogub/esgo](https://github.com/diegogub/esgo): 2016-07-15 <br/> Eventstoring generic driver
+- [isuruceanu/gocqrs](https://github.com/isuruceanu/gocqrs): 2016-06-29 <br/> Golang implementation of CQRS architectural patern with Event Sourcing
+- [xozrc/cqrs](https://github.com/xozrc/cqrs): 2016-06-29 <br/> cqrs
+- [xozrc/eventsourcing](https://github.com/xozrc/eventsourcing): 2016-06-13 <br/> eventsourcing
+- [cloudnativego/drones-query](https://github.com/cloudnativego/drones-query): 2016-05-24 <br/> Implementation of the Query portion of CQRS for the drones sample
+- [cloudnativego/drones-events](https://github.com/cloudnativego/drones-events): 2016-05-24 <br/> Event Processing Microservice for the Drones Sample
+- [cloudnativego/drones-cmds](https://github.com/cloudnativego/drones-cmds): 2016-05-23 <br/> Command Handler Service for Drone Army Sample
+- [eventsourcedb/eventsourcedb](https://github.com/eventsourcedb/eventsourcedb): 2016-05-19 <br/> EventSourcing storage made easy
+- [egonelbre/guestlist](https://github.com/egonelbre/guestlist): 2016-05-10 <br/> Go CQRS/ES application reference
+- [f2prateek/coi](https://github.com/f2prateek/coi): 2016-04-21 <br/>  --- 
+- [botchniaque/eventsourcing-cqrs-go](https://github.com/botchniaque/eventsourcing-cqrs-go): 2016-02-26 <br/> Example event sourcing and CQRS implementation in golang
+- [mcveat/event-sourcing-cqrs](https://github.com/mcveat/event-sourcing-cqrs): 2016-02-05 <br/> Example of Event Sourcing and CQRS in golang
+- [thebookofeveryone/cqrs](https://github.com/thebookofeveryone/cqrs): 2016-01-12 <br/> CQRS Example
+- [berkaroad/ddd](https://github.com/berkaroad/ddd): 2015-12-20 <br/> Domain Driven Design by golang
+- [andrewwebber/cqrs](https://github.com/andrewwebber/cqrs): 2015-11-30 <br/> cqrs framework in go
+- [duskhacker/cqrsnu](https://github.com/duskhacker/cqrsnu): 2015-10-20 <br/>  --- 
+- [jensrantil/gorewind](https://github.com/jensrantil/gorewind): 2015-10-20 <br/> This is a port of Rewind to the Go programming language.
+- [mbucc/cqrs](https://github.com/mbucc/cqrs): 2015-07-19 <br/> A golang starter kit for working with CQRS.  http://cqrs.nu/
+- [andrewwebber/cqrs-scaleout](https://github.com/andrewwebber/cqrs-scaleout): 2015-06-02 <br/> CQRS multi worker example
+- [pjvds/go-cqrs](https://github.com/pjvds/go-cqrs): 2015-04-28 <br/> Example of CQRS on domain level in Go
+- [jostly/cqrs-bookstore-go](https://github.com/jostly/cqrs-bookstore-go): 2014-12-13 <br/>  --- 
+- [vizidrix/gocqrs](https://github.com/vizidrix/gocqrs): 2014-10-01 <br/> CQRS (Command Query Responsibility Separation) / ES (Event Sourcing) utilities for Go
+- [vizidrix/eventstore](https://github.com/vizidrix/eventstore): 2014-07-26 <br/> An opinionated and very basic, read only, file based event store for GO
+- [atitsbest/go_cqrs](https://github.com/atitsbest/go_cqrs): 2014-06-06 <br/> CQRS Test in Go
+- [saem/afterme](https://github.com/saem/afterme): 2014-01-14 <br/>  --- 
 <!-- /ACTIVITY_LIST -->
 
 ### By size

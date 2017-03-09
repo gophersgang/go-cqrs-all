@@ -239,9 +239,9 @@ func (ri repoInfo) MarkdownProject() string {
 }
 
 func (ri repoInfo) MarkdownActivity() string {
-	return fmt.Sprintf("- %s - %s  <br/> %s",
-		ri.lastcommitShort(),
+	return fmt.Sprintf("- %s: %s <br/> %s",
 		ri.mdLink(),
+		ri.lastcommitShort(),
 		ri.description,
 	)
 }
