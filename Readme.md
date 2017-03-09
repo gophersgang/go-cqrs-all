@@ -32,7 +32,7 @@ The main purpose is reading / learning / teaching.
 - [egonelbre/guestlist](https://github.com/egonelbre/guestlist) - guestlist - Go CQRS/ES application reference <br/> ( 2016-05-10 )
 - [eventsourcedb/eventsourcedb](https://github.com/eventsourcedb/eventsourcedb) - eventsourcedb - EventSourcing storage made easy <br/> ( 2016-05-19 )
 - [f2prateek/coi](https://github.com/f2prateek/coi) - Contribute to coi development by creating an account on GitHub. <br/> ( 2016-04-21 )
-- [hellofresh/goengine](https://github.com/hellofresh/goengine) - goengine - Engine provides you all the capabilities to build an Event sourced application in go <br/> ( 2017-01-01 )
+- [hellofresh/goengine](https://github.com/hellofresh/goengine) - goengine - Engine provides you all the capabilities to build an Event sourced application in go <br/> ( 2017-03-08 )
 - [isuruceanu/gocqrs](https://github.com/isuruceanu/gocqrs) - gocqrs - Golang implementation of CQRS architectural patern with Event Sourcing <br/> ( 2016-06-29 )
 - [jensrantil/gorewind](https://github.com/jensrantil/gorewind) - gorewind - This is a port of Rewind to the Go programming language. <br/> ( 2015-10-20 )
 - [jetbasrawi/go.geteventstore](https://github.com/jetbasrawi/go.geteventstore) - go.geteventstore - A Go Client for EventStore HTTP API <br/> ( 2016-10-27 )
@@ -67,6 +67,7 @@ The main purpose is reading / learning / teaching.
 
 ### By Activity
 <!-- ACTIVITY_LIST -->
+- 2017-03-08 - [hellofresh/goengine](https://github.com/hellofresh/goengine)  <br/> goengine - Engine provides you all the capabilities to build an Event sourced application in go
 - 2017-03-07 - [diegogub/gocqrs](https://github.com/diegogub/gocqrs)  <br/> gocqrs - CQRS bootstrap framework for Go. Basic CRUD events already included.
 - 2017-02-28 - [looplab/eventhorizon](https://github.com/looplab/eventhorizon)  <br/> eventhorizon - CQRS/ES toolkit for Go
 - 2017-02-06 - [mishudark/eventhus](https://github.com/mishudark/eventhus)  <br/> eventhus - CQRS/Event Sourcing made easy - Go
@@ -78,7 +79,6 @@ The main purpose is reading / learning / teaching.
 - 2017-01-04 - [xtracdev/orapub](https://github.com/xtracdev/orapub)  <br/> orapub - Event publishing for the Oracle event store
 - 2017-01-04 - [xtracdev/oraeventstore](https://github.com/xtracdev/oraeventstore)  <br/> oraeventstore - Golang event store for Oracle
 - 2017-01-03 - [xtracdev/es-data-pub](https://github.com/xtracdev/es-data-pub)  <br/> es-data-pub - Event store publishing
-- 2017-01-01 - [hellofresh/goengine](https://github.com/hellofresh/goengine)  <br/> goengine - Engine provides you all the capabilities to build an Event sourced application in go
 - 2016-11-22 - [xtracdev/goes](https://github.com/xtracdev/goes)  <br/> goes - Go Event Sourcing
 - 2016-10-27 - [jetbasrawi/go.geteventstore](https://github.com/jetbasrawi/go.geteventstore)  <br/> go.geteventstore - A Go Client for EventStore HTTP API
 - 2016-10-21 - [sclasen/swfsm](https://github.com/sclasen/swfsm)  <br/> swfsm - [golang] simple workflow finite state machines
