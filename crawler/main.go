@@ -45,7 +45,7 @@ func printSortedAlpha(repos []repoInfo) {
 	sort.Sort(reposByURL(repos))
 	fmt.Print("\n\n")
 	for _, r := range repos {
-		fmt.Println(r.Markdown())
+		fmt.Println(r.MarkdownProject())
 	}
 }
 
@@ -90,12 +90,11 @@ func (rh readmeHandler) replaceProjects(repos []repoInfo) {
 	lines := []string{}
 	lines = append(lines, regexStart)
 	for _, repo := range repos {
-		lines = append(lines, repo.Markdown())
+		lines = append(lines, repo.MarkdownProject())
 	}
 	lines = append(lines, regexEnd)
 
 	r := regexp.MustCompile(pattern)
-	// fmt.Println(r)
 
 	data, err := ioutil.ReadFile(readmeFile)
 	check(err)
@@ -116,7 +115,6 @@ func (rh readmeHandler) replaceActivity(repos []repoInfo) {
 	}
 	lines = append(lines, regexEnd)
 	r := regexp.MustCompile(pattern)
-	// fmt.Println(r)
 
 	data, err := ioutil.ReadFile(readmeFile)
 	check(err)
@@ -202,17 +200,24 @@ type repoInfo struct {
 	lastcommit  string
 }
 
-func (ri repoInfo) Markdown() string {
-	lastcommit := ri.lastcommit[0:10]
-	shorturl := strings.Replace(ri.url, "https://github.com/", "", -1)
-	return fmt.Sprintf("- [%s](%s) - %s <br/> ( %s )", shorturl, ri.url, ri.description, lastcommit)
+func (ri repoInfo) MarkdownProject() string {
+	return fmt.Sprintf("- %s - %s <br/> ( %s )", ri.mdLink(), ri.description, ri.lastcommitShort())
 }
 
 func (ri repoInfo) MarkdownActivity() string {
-	lastcommit := ri.lastcommit[0:10]
-	shorturl := strings.Replace(ri.url, "https://github.com/", "", -1)
-	link := fmt.Sprintf("[%s](%s)", shorturl, ri.url)
-	return fmt.Sprintf("- %s - %s  <br/> %s", lastcommit, link, ri.description)
+	return fmt.Sprintf("- %s - %s  <br/> %s", ri.lastcommitShort(), ri.mdLink(), ri.description)
+}
+
+func (ri repoInfo) shorturl() string {
+	return strings.Replace(ri.url, "https://github.com/", "", -1)
+}
+
+func (ri repoInfo) mdLink() string {
+	return fmt.Sprintf("[%s](%s)", ri.shorturl(), ri.url)
+}
+
+func (ri repoInfo) lastcommitShort() string {
+	return ri.lastcommit[0:10]
 }
 
 type reposByLastcommit []repoInfo
