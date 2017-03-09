@@ -143,7 +143,7 @@ func (r repoParser) getDescription(doc *goquery.Document) string {
 		content = parts[1]
 	}
 	if strings.Contains(content, "by creating an account on GitHub") {
-		content = " --- "
+		content = "---"
 	}
 	return content
 }
