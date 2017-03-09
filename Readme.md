@@ -97,20 +97,70 @@ The main purpose is reading / learning / teaching.
 - 2016-05-23 - [cloudnativego/drones-cmds](https://github.com/cloudnativego/drones-cmds)  <br/> Command Handler Service for Drone Army Sample
 - 2016-05-19 - [eventsourcedb/eventsourcedb](https://github.com/eventsourcedb/eventsourcedb)  <br/> EventSourcing storage made easy
 - 2016-05-10 - [egonelbre/guestlist](https://github.com/egonelbre/guestlist)  <br/> Go CQRS/ES application reference
-- 2016-04-21 - [f2prateek/coi](https://github.com/f2prateek/coi)  <br/>  --- 
+- 2016-04-21 - [f2prateek/coi](https://github.com/f2prateek/coi)  <br/>  ---
 - 2016-02-26 - [botchniaque/eventsourcing-cqrs-go](https://github.com/botchniaque/eventsourcing-cqrs-go)  <br/> Example event sourcing and CQRS implementation in golang
 - 2016-02-05 - [mcveat/event-sourcing-cqrs](https://github.com/mcveat/event-sourcing-cqrs)  <br/> Example of Event Sourcing and CQRS in golang
 - 2016-01-12 - [thebookofeveryone/cqrs](https://github.com/thebookofeveryone/cqrs)  <br/> CQRS Example
 - 2015-12-20 - [berkaroad/ddd](https://github.com/berkaroad/ddd)  <br/> Domain Driven Design by golang
 - 2015-11-30 - [andrewwebber/cqrs](https://github.com/andrewwebber/cqrs)  <br/> cqrs framework in go
-- 2015-10-20 - [duskhacker/cqrsnu](https://github.com/duskhacker/cqrsnu)  <br/>  --- 
+- 2015-10-20 - [duskhacker/cqrsnu](https://github.com/duskhacker/cqrsnu)  <br/>  ---
 - 2015-10-20 - [jensrantil/gorewind](https://github.com/jensrantil/gorewind)  <br/> This is a port of Rewind to the Go programming language.
 - 2015-07-19 - [mbucc/cqrs](https://github.com/mbucc/cqrs)  <br/> A golang starter kit for working with CQRS.  http://cqrs.nu/
 - 2015-06-02 - [andrewwebber/cqrs-scaleout](https://github.com/andrewwebber/cqrs-scaleout)  <br/> CQRS multi worker example
 - 2015-04-28 - [pjvds/go-cqrs](https://github.com/pjvds/go-cqrs)  <br/> Example of CQRS on domain level in Go
-- 2014-12-13 - [jostly/cqrs-bookstore-go](https://github.com/jostly/cqrs-bookstore-go)  <br/>  --- 
+- 2014-12-13 - [jostly/cqrs-bookstore-go](https://github.com/jostly/cqrs-bookstore-go)  <br/>  ---
 - 2014-10-01 - [vizidrix/gocqrs](https://github.com/vizidrix/gocqrs)  <br/> CQRS (Command Query Responsibility Separation) / ES (Event Sourcing) utilities for Go
 - 2014-07-26 - [vizidrix/eventstore](https://github.com/vizidrix/eventstore)  <br/> An opinionated and very basic, read only, file based event store for GO
 - 2014-06-06 - [atitsbest/go_cqrs](https://github.com/atitsbest/go_cqrs)  <br/> CQRS Test in Go
-- 2014-01-14 - [saem/afterme](https://github.com/saem/afterme)  <br/>  --- 
+- 2014-01-14 - [saem/afterme](https://github.com/saem/afterme)  <br/>  ---
 <!-- /ACTIVITY_LIST -->
+
+### By size
+<!-- SIZE_LIST -->
+- diegogub/gocqrs: 6.46 MB<br/>  (1.13 MB git / 5.33 MB code)
+- sclasen/swfsm: 3.68 MB<br/>  (1.58 MB git / 2.10 MB code)
+- cloudnativego/drones-query: 3.39 MB<br/>  (3.38 MB git / 0.01 MB code)
+- jetbasrawi/go.geteventstore: 3.36 MB<br/>  (3.26 MB git / 0.10 MB code)
+- xtracdev/es-atom-pub: 3.04 MB<br/>  (2.96 MB git / 0.08 MB code)
+- xozrc/cqrs: 2.75 MB<br/>  (2.70 MB git / 0.05 MB code)
+- duskhacker/cqrsnu: 2.64 MB<br/>  (0.62 MB git / 2.02 MB code)
+- vizidrix/eventstore: 1.76 MB<br/>  (1.47 MB git / 0.28 MB code)
+- xtraclabs/es-atom-feed-data: 1.48 MB<br/>  (1.47 MB git / 0.01 MB code)
+- xtracdev/goes: 1.23 MB<br/>  (1.18 MB git / 0.05 MB code)
+- looplab/eventhorizon: 0.77 MB<br/>  (0.52 MB git / 0.25 MB code)
+- mbucc/cqrs: 0.33 MB<br/>  (0.29 MB git / 0.05 MB code)
+- rogerclotet/graceful-restart: 0.31 MB<br/>  (0.09 MB git / 0.22 MB code)
+- cloudnativego/drones-events: 0.27 MB<br/>  (0.25 MB git / 0.03 MB code)
+- andrewwebber/cqrs: 0.27 MB<br/>  (0.14 MB git / 0.13 MB code)
+- JensRantil/gorewind: 0.24 MB<br/>  (0.15 MB git / 0.09 MB code)
+- cloudnativego/drones-cmds: 0.20 MB<br/>  (0.17 MB git / 0.03 MB code)
+- pjvds/go-cqrs: 0.19 MB<br/>  (0.14 MB git / 0.05 MB code)
+- sunrongya/milife: 0.18 MB<br/>  (0.07 MB git / 0.11 MB code)
+- vizidrix/gocqrs: 0.17 MB<br/>  (0.14 MB git / 0.03 MB code)
+- rogerclotet/cqrs: 0.14 MB<br/>  (0.09 MB git / 0.05 MB code)
+- saem/afterme: 0.12 MB<br/>  (0.07 MB git / 0.06 MB code)
+- xtracdev/es-atom-data: 0.12 MB<br/>  (0.07 MB git / 0.05 MB code)
+- sunrongya/eventsourcing: 0.12 MB<br/>  (0.05 MB git / 0.07 MB code)
+- xtracdev/orapub: 0.11 MB<br/>  (0.08 MB git / 0.03 MB code)
+- mishudark/eventhus: 0.11 MB<br/>  (0.08 MB git / 0.03 MB code)
+- hellofresh/goengine: 0.10 MB<br/>  (0.07 MB git / 0.03 MB code)
+- eventsourcedb/eventsourcedb: 0.09 MB<br/>  (0.06 MB git / 0.03 MB code)
+- xozrc/eventsourcing: 0.09 MB<br/>  (0.05 MB git / 0.04 MB code)
+- mcveat/event-sourcing-cqrs: 0.09 MB<br/>  (0.06 MB git / 0.03 MB code)
+- botchniaque/eventsourcing-cqrs-go: 0.09 MB<br/>  (0.06 MB git / 0.03 MB code)
+- xtracdev/oraeventstore: 0.08 MB<br/>  (0.06 MB git / 0.03 MB code)
+- xtraclabs/appreg: 0.08 MB<br/>  (0.04 MB git / 0.04 MB code)
+- jetbasrawi/go.geteventstore.testfeed: 0.08 MB<br/>  (0.03 MB git / 0.05 MB code)
+- berkaroad/ioc: 0.07 MB<br/>  (0.06 MB git / 0.02 MB code)
+- atitsbest/go_cqrs: 0.06 MB<br/>  (0.04 MB git / 0.02 MB code)
+- egonelbre/guestlist: 0.06 MB<br/>  (0.04 MB git / 0.02 MB code)
+- f2prateek/coi: 0.06 MB<br/>  (0.05 MB git / 0.01 MB code)
+- diegogub/esgo: 0.05 MB<br/>  (0.04 MB git / 0.01 MB code)
+- jostly/cqrs-bookstore-go: 0.05 MB<br/>  (0.03 MB git / 0.02 MB code)
+- thebookofeveryone/cqrs: 0.05 MB<br/>  (0.04 MB git / 0.01 MB code)
+- andrewwebber/cqrs-scaleout: 0.04 MB<br/>  (0.03 MB git / 0.01 MB code)
+- xtracdev/es-data-pub: 0.04 MB<br/>  (0.03 MB git / 0.01 MB code)
+- YuukanOO/go-toolbelt: 0.04 MB<br/>  (0.03 MB git / 0.01 MB code)
+- berkaroad/ddd: 0.04 MB<br/>  (0.03 MB git / 0.01 MB code)
+- isuruceanu/gocqrs: 0.03 MB<br/>  (0.02 MB git / 0.00 MB code)
+<!-- /SIZE_LIST -->
