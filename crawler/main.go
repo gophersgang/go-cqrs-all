@@ -61,9 +61,11 @@ func process(url string) repoInfo {
 	parser := repoParser{}
 	doc := parser.getDoc(url)
 	repo := repoInfo{
-		url:         strings.ToLower(url),
-		description: parser.getDescription(doc),
-		lastcommit:  parser.getLastcommit(doc),
+		url:          strings.ToLower(url),
+		description:  parser.getDescription(doc),
+		lastcommit:   parser.getLastcommit(doc),
+		commitsCount: parser.getCommitsCount(doc),
+		stars:        parser.getStarsCount(doc),
 	}
 	return repo
 }
@@ -135,7 +137,23 @@ func (r repoParser) getDescription(doc *goquery.Document) string {
 			content, _ = s.Attr("content")
 		}
 	})
+	var parts []string
+	if strings.Contains(content, " - ") {
+		parts = strings.SplitN(content, " - ", 2)
+		content = parts[1]
+	}
+	if strings.Contains(content, "by creating an account on GitHub") {
+		content = " --- "
+	}
 	return content
+}
+
+func (r repoParser) getCommitsCount(doc *goquery.Document) string {
+	return r.getSelectorText(doc, ".numbers-summary .commits .num")
+}
+
+func (r repoParser) getStarsCount(doc *goquery.Document) string {
+	return r.getSelectorText(doc, ".social-count")
 }
 
 func (r repoParser) getLastcommit(doc *goquery.Document) string {
@@ -171,9 +189,17 @@ func (r repoParser) getLastcommitAjax(doc *goquery.Document) string {
 	return r.getLastcommit(ajaxDoc)
 }
 
+func (r repoParser) getSelectorText(doc *goquery.Document, selector string) string {
+	var content string
+	doc.Find(selector).Each(func(i int, s *goquery.Selection) {
+		content = strings.TrimSpace(s.Text())
+	})
+	return content
+}
+
 func (r repoParser) getDoc(url string) *goquery.Document {
 	return r.urlDoc(url)
-	// return localDoc()
+	// return r.localDoc()
 }
 
 func (r repoParser) urlDoc(url string) *goquery.Document {
@@ -195,17 +221,29 @@ func (r repoParser) localDoc() *goquery.Document {
 	repoInfo logic
 */
 type repoInfo struct {
-	url         string
-	description string
-	lastcommit  string
+	url          string
+	description  string
+	lastcommit   string
+	commitsCount string
+	stars        string
 }
 
 func (ri repoInfo) MarkdownProject() string {
-	return fmt.Sprintf("- %s - %s <br/> ( %s )", ri.mdLink(), ri.description, ri.lastcommitShort())
+	return fmt.Sprintf("- %s - %s <br/> ( %s / %s commits / %s stars )",
+		ri.mdLink(),
+		ri.description,
+		ri.lastcommitShort(),
+		ri.commitsCount,
+		ri.stars,
+	)
 }
 
 func (ri repoInfo) MarkdownActivity() string {
-	return fmt.Sprintf("- %s - %s  <br/> %s", ri.lastcommitShort(), ri.mdLink(), ri.description)
+	return fmt.Sprintf("- %s - %s  <br/> %s",
+		ri.lastcommitShort(),
+		ri.mdLink(),
+		ri.description,
+	)
 }
 
 func (ri repoInfo) shorturl() string {
