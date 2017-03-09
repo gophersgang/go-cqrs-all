@@ -26,6 +26,7 @@ The main purpose is reading / learning / teaching.
 - [cloudnativego/drones-cmds](https://github.com/cloudnativego/drones-cmds) - Command Handler Service for Drone Army Sample <br/> ( 2016-05-23 / 45 commits / 0 stars )
 - [cloudnativego/drones-events](https://github.com/cloudnativego/drones-events) - Event Processing Microservice for the Drones Sample <br/> ( 2016-05-24 / 20 commits / 0 stars )
 - [cloudnativego/drones-query](https://github.com/cloudnativego/drones-query) - Implementation of the Query portion of CQRS for the drones sample <br/> ( 2016-05-24 / 13 commits / 0 stars )
+- [customerio/esdb](https://github.com/customerio/esdb) - Event-stream flat file database - Immutable storage for timestamped event streams <br/> ( 2016-10-09 / 151 commits / 4 stars )
 - [diegogub/esgo](https://github.com/diegogub/esgo) - Eventstoring generic driver <br/> ( 2016-07-15 / 6 commits / 0 stars )
 - [diegogub/gocqrs](https://github.com/diegogub/gocqrs) - CQRS bootstrap framework for Go. Basic CRUD events already included. <br/> ( 2017-03-09 / 10 commits / 0 stars )
 - [duskhacker/cqrsnu](https://github.com/duskhacker/cqrsnu) - --- <br/> ( 2015-10-20 / 26 commits / 0 stars )
@@ -82,6 +83,7 @@ The main purpose is reading / learning / teaching.
 - [xtracdev/goes](https://github.com/xtracdev/goes): 2016-11-22 <br/> Go Event Sourcing
 - [jetbasrawi/go.geteventstore](https://github.com/jetbasrawi/go.geteventstore): 2016-10-27 <br/> A Go Client for EventStore HTTP API
 - [sclasen/swfsm](https://github.com/sclasen/swfsm): 2016-10-21 <br/> [golang] simple workflow finite state machines
+- [customerio/esdb](https://github.com/customerio/esdb): 2016-10-09 <br/> Event-stream flat file database - Immutable storage for timestamped event streams
 - [xtraclabs/es-atom-feed-data](https://github.com/xtraclabs/es-atom-feed-data): 2016-09-23 <br/> Example atom data feed for event store replication
 - [xtraclabs/appreg](https://github.com/xtraclabs/appreg): 2016-09-21 <br/> Sample application registration app demonstrating event sourcing and CQRS
 - [berkaroad/ioc](https://github.com/berkaroad/ioc): 2016-08-31 <br/> Inversion of Control (IoC)
@@ -117,6 +119,7 @@ The main purpose is reading / learning / teaching.
 
 ### By size
 <!-- SIZE_LIST -->
+- [customerio/esdb](https://github.com/customerio/esdb): 92.34 MB<br/>  (13.12 MB git / 79.22 MB code)
 - [diegogub/gocqrs](https://github.com/diegogub/gocqrs): 6.46 MB<br/>  (1.13 MB git / 5.33 MB code)
 - [sclasen/swfsm](https://github.com/sclasen/swfsm): 3.68 MB<br/>  (1.58 MB git / 2.10 MB code)
 - [cloudnativego/drones-query](https://github.com/cloudnativego/drones-query): 3.39 MB<br/>  (3.38 MB git / 0.01 MB code)

@@ -44,3 +44,4 @@ https://github.com/xtracdev/orapub
 https://github.com/xtraclabs/appreg
 https://github.com/xtraclabs/es-atom-feed-data
 https://github.com/yuukanoo/go-toolbelt
+https://github.com/customerio/esdb
