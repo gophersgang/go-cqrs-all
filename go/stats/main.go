@@ -69,8 +69,9 @@ func (r repo) asString() string {
 
 func (r repo) asMarkdown() string {
 	name := strings.Replace(r.name, "src/github.com/", "", -1)
+	link := fmt.Sprintf("[%s](%s)", name, "https://github.com/"+name)
 	return fmt.Sprintf("- %s: %s MB<br/>  (%s MB git / %s MB code)",
-		name,
+		link,
 		floatAsString(r.fullSize),
 		floatAsString(r.gitSize),
 		floatAsString(r.codeSize),
