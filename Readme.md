@@ -39,10 +39,11 @@ The main purpose is reading / learning / teaching.
 - [jetbasrawi/go.geteventstore](https://github.com/jetbasrawi/go.geteventstore) - A Go Client for EventStore HTTP API <br/> ( 2016-10-27 / 101 commits / 5 stars )
 - [jetbasrawi/go.geteventstore.testfeed](https://github.com/jetbasrawi/go.geteventstore.testfeed) - A mock handler simulating GetEventStore Atom feeds for event streams. <br/> ( 2016-08-08 / 1 commits / 0 stars )
 - [jostly/cqrs-bookstore-go](https://github.com/jostly/cqrs-bookstore-go) - --- <br/> ( 2014-12-13 / 3 commits / 0 stars )
-- [looplab/eventhorizon](https://github.com/looplab/eventhorizon) - CQRS/ES toolkit for Go <br/> ( 2017-02-28 / 241 commits / 36 stars )
+- [looplab/eventhorizon](https://github.com/looplab/eventhorizon) - CQRS/ES toolkit for Go <br/> ( 2017-02-28 / 241 commits / 37 stars )
 - [mbucc/cqrs](https://github.com/mbucc/cqrs) - A golang starter kit for working with CQRS.  http://cqrs.nu/ <br/> ( 2015-07-19 / 176 commits / 1 stars )
 - [mcveat/event-sourcing-cqrs](https://github.com/mcveat/event-sourcing-cqrs) - Example of Event Sourcing and CQRS in golang <br/> ( 2016-02-05 / 29 commits / 0 stars )
 - [mishudark/eventhus](https://github.com/mishudark/eventhus) - CQRS/Event Sourcing made easy - Go <br/> ( 2017-02-06 / 74 commits / 1 stars )
+- [moul/cleanarch](https://github.com/moul/cleanarch) - :shower: the clean architecture, optimised for Golang <br/> ( 2016-09-21 / 60 commits / 0 stars )
 - [pjvds/go-cqrs](https://github.com/pjvds/go-cqrs) - Example of CQRS on domain level in Go <br/> ( 2015-04-28 / 159 commits / 6 stars )
 - [rogerclotet/cqrs](https://github.com/rogerclotet/cqrs) - Basic CQRS implementation in go <br/> ( 2016-08-16 / 8 commits / 0 stars )
 - [rogerclotet/graceful-restart](https://github.com/rogerclotet/graceful-restart) - This is an effort to show a way of doing live code deployment with 0 downtime in a CQRS environment <br/> ( 2016-08-16 / 15 commits / 0 stars )
@@ -85,6 +86,7 @@ The main purpose is reading / learning / teaching.
 - [sclasen/swfsm](https://github.com/sclasen/swfsm): 2016-10-21 <br/> [golang] simple workflow finite state machines
 - [customerio/esdb](https://github.com/customerio/esdb): 2016-10-09 <br/> Event-stream flat file database - Immutable storage for timestamped event streams
 - [xtraclabs/es-atom-feed-data](https://github.com/xtraclabs/es-atom-feed-data): 2016-09-23 <br/> Example atom data feed for event store replication
+- [moul/cleanarch](https://github.com/moul/cleanarch): 2016-09-21 <br/> :shower: the clean architecture, optimised for Golang
 - [xtraclabs/appreg](https://github.com/xtraclabs/appreg): 2016-09-21 <br/> Sample application registration app demonstrating event sourcing and CQRS
 - [berkaroad/ioc](https://github.com/berkaroad/ioc): 2016-08-31 <br/> Inversion of Control (IoC)
 - [rogerclotet/cqrs](https://github.com/rogerclotet/cqrs): 2016-08-16 <br/> Basic CQRS implementation in go
@@ -121,6 +123,7 @@ The main purpose is reading / learning / teaching.
 <!-- SIZE_LIST -->
 - [customerio/esdb](https://github.com/customerio/esdb): 92.34 MB<br/>  (13.12 MB git / 79.22 MB code)
 - [diegogub/gocqrs](https://github.com/diegogub/gocqrs): 6.46 MB<br/>  (1.13 MB git / 5.33 MB code)
+- [moul/cleanarch](https://github.com/moul/cleanarch): 3.84 MB<br/>  (1.87 MB git / 1.97 MB code)
 - [sclasen/swfsm](https://github.com/sclasen/swfsm): 3.68 MB<br/>  (1.58 MB git / 2.10 MB code)
 - [cloudnativego/drones-query](https://github.com/cloudnativego/drones-query): 3.39 MB<br/>  (3.38 MB git / 0.01 MB code)
 - [jetbasrawi/go.geteventstore](https://github.com/jetbasrawi/go.geteventstore): 3.36 MB<br/>  (3.26 MB git / 0.10 MB code)
