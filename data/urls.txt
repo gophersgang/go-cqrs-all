@@ -7,6 +7,7 @@ https://github.com/botchniaque/eventsourcing-cqrs-go
 https://github.com/cloudnativego/drones-cmds
 https://github.com/cloudnativego/drones-events
 https://github.com/cloudnativego/drones-query
+https://github.com/customerio/esdb
 https://github.com/diegogub/esgo
 https://github.com/diegogub/gocqrs
 https://github.com/duskhacker/cqrsnu
@@ -23,6 +24,7 @@ https://github.com/looplab/eventhorizon
 https://github.com/mbucc/cqrs
 https://github.com/mcveat/event-sourcing-cqrs
 https://github.com/mishudark/eventhus
+https://github.com/moul/cleanarch
 https://github.com/pjvds/go-cqrs
 https://github.com/rogerclotet/cqrs
 https://github.com/rogerclotet/graceful-restart
@@ -44,4 +46,3 @@ https://github.com/xtracdev/orapub
 https://github.com/xtraclabs/appreg
 https://github.com/xtraclabs/es-atom-feed-data
 https://github.com/yuukanoo/go-toolbelt
-https://github.com/customerio/esdb
