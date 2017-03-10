@@ -15,6 +15,11 @@ The main purpose is reading / learning / teaching.
 
     $ make crawl
 
+### Navigation
+
+- [By Size](#by-size)
+- [By Activity](#by-activity)
+
 ### Projects
 <!-- PROJECTS_LIST -->
 - [andrewwebber/cqrs](https://github.com/andrewwebber/cqrs) - cqrs framework in go <br/> ( 2015-11-30 / 69 commits / 6 stars )
