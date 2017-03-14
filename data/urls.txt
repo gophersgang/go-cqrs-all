@@ -8,6 +8,7 @@ https://github.com/cloudnativego/drones-cmds
 https://github.com/cloudnativego/drones-events
 https://github.com/cloudnativego/drones-query
 https://github.com/customerio/esdb
+https://github.com/dc0d/sector
 https://github.com/diegogub/esgo
 https://github.com/diegogub/gocqrs
 https://github.com/duskhacker/cqrsnu

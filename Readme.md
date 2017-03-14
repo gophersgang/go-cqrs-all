@@ -32,8 +32,9 @@ The main purpose is reading / learning / teaching.
 - [cloudnativego/drones-events](https://github.com/cloudnativego/drones-events) - Event Processing Microservice for the Drones Sample <br/> ( 2016-05-24 / 20 commits / 0 stars )
 - [cloudnativego/drones-query](https://github.com/cloudnativego/drones-query) - Implementation of the Query portion of CQRS for the drones sample <br/> ( 2016-05-24 / 13 commits / 0 stars )
 - [customerio/esdb](https://github.com/customerio/esdb) - Event-stream flat file database - Immutable storage for timestamped event streams <br/> ( 2016-10-09 / 151 commits / 4 stars )
+- [dc0d/sector](https://github.com/dc0d/sector) - Simple Injector; Dependency Injection <br/> ( 2017-03-06 / 6 commits / 3 stars )
 - [diegogub/esgo](https://github.com/diegogub/esgo) - Eventstoring generic driver <br/> ( 2016-07-15 / 6 commits / 0 stars )
-- [diegogub/gocqrs](https://github.com/diegogub/gocqrs) - CQRS bootstrap framework for Go. Basic CRUD events already included. <br/> ( 2017-03-09 / 10 commits / 0 stars )
+- [diegogub/gocqrs](https://github.com/diegogub/gocqrs) - CQRS bootstrap framework for Go. Basic CRUD events already included. <br/> ( 2017-03-13 / 12 commits / 0 stars )
 - [duskhacker/cqrsnu](https://github.com/duskhacker/cqrsnu) - --- <br/> ( 2015-10-20 / 26 commits / 0 stars )
 - [egonelbre/guestlist](https://github.com/egonelbre/guestlist) - Go CQRS/ES application reference <br/> ( 2016-05-10 / 7 commits / 1 stars )
 - [eventsourcedb/eventsourcedb](https://github.com/eventsourcedb/eventsourcedb) - EventSourcing storage made easy <br/> ( 2016-05-19 / 19 commits / 1 stars )
@@ -44,7 +45,7 @@ The main purpose is reading / learning / teaching.
 - [jetbasrawi/go.geteventstore](https://github.com/jetbasrawi/go.geteventstore) - A Go Client for EventStore HTTP API <br/> ( 2016-10-27 / 101 commits / 5 stars )
 - [jetbasrawi/go.geteventstore.testfeed](https://github.com/jetbasrawi/go.geteventstore.testfeed) - A mock handler simulating GetEventStore Atom feeds for event streams. <br/> ( 2016-08-08 / 1 commits / 0 stars )
 - [jostly/cqrs-bookstore-go](https://github.com/jostly/cqrs-bookstore-go) - --- <br/> ( 2014-12-13 / 3 commits / 0 stars )
-- [looplab/eventhorizon](https://github.com/looplab/eventhorizon) - CQRS/ES toolkit for Go <br/> ( 2017-02-28 / 241 commits / 37 stars )
+- [looplab/eventhorizon](https://github.com/looplab/eventhorizon) - CQRS/ES toolkit for Go <br/> ( 2017-03-13 / 245 commits / 39 stars )
 - [mbucc/cqrs](https://github.com/mbucc/cqrs) - A golang starter kit for working with CQRS.  http://cqrs.nu/ <br/> ( 2015-07-19 / 176 commits / 1 stars )
 - [mcveat/event-sourcing-cqrs](https://github.com/mcveat/event-sourcing-cqrs) - Example of Event Sourcing and CQRS in golang <br/> ( 2016-02-05 / 29 commits / 0 stars )
 - [mishudark/eventhus](https://github.com/mishudark/eventhus) - CQRS/Event Sourcing made easy - Go <br/> ( 2017-02-06 / 74 commits / 1 stars )
@@ -74,9 +75,10 @@ The main purpose is reading / learning / teaching.
 
 ### By Activity
 <!-- ACTIVITY_LIST -->
-- [diegogub/gocqrs](https://github.com/diegogub/gocqrs): 2017-03-09 <br/> CQRS bootstrap framework for Go. Basic CRUD events already included.
+- [looplab/eventhorizon](https://github.com/looplab/eventhorizon): 2017-03-13 <br/> CQRS/ES toolkit for Go
+- [diegogub/gocqrs](https://github.com/diegogub/gocqrs): 2017-03-13 <br/> CQRS bootstrap framework for Go. Basic CRUD events already included.
 - [hellofresh/goengine](https://github.com/hellofresh/goengine): 2017-03-08 <br/> Engine provides you all the capabilities to build an Event sourced application in go
-- [looplab/eventhorizon](https://github.com/looplab/eventhorizon): 2017-02-28 <br/> CQRS/ES toolkit for Go
+- [dc0d/sector](https://github.com/dc0d/sector): 2017-03-06 <br/> Simple Injector; Dependency Injection
 - [mishudark/eventhus](https://github.com/mishudark/eventhus): 2017-02-06 <br/> CQRS/Event Sourcing made easy - Go
 - [yuukanoo/go-toolbelt](https://github.com/yuukanoo/go-toolbelt): 2017-02-01 <br/> Golang toolbelt aimed at Domain Driven Design
 - [xtracdev/es-atom-pub](https://github.com/xtracdev/es-atom-pub): 2017-01-17 <br/> Atom publication services
@@ -127,7 +129,7 @@ The main purpose is reading / learning / teaching.
 ### By size
 <!-- SIZE_LIST -->
 - [customerio/esdb](https://github.com/customerio/esdb): 92.34 MB<br/>  (13.12 MB git / 79.22 MB code)
-- [diegogub/gocqrs](https://github.com/diegogub/gocqrs): 6.46 MB<br/>  (1.13 MB git / 5.33 MB code)
+- [diegogub/gocqrs](https://github.com/diegogub/gocqrs): 6.48 MB<br/>  (1.14 MB git / 5.33 MB code)
 - [moul/cleanarch](https://github.com/moul/cleanarch): 3.84 MB<br/>  (1.87 MB git / 1.97 MB code)
 - [sclasen/swfsm](https://github.com/sclasen/swfsm): 3.68 MB<br/>  (1.58 MB git / 2.10 MB code)
 - [cloudnativego/drones-query](https://github.com/cloudnativego/drones-query): 3.39 MB<br/>  (3.38 MB git / 0.01 MB code)
@@ -138,7 +140,7 @@ The main purpose is reading / learning / teaching.
 - [vizidrix/eventstore](https://github.com/vizidrix/eventstore): 1.76 MB<br/>  (1.47 MB git / 0.28 MB code)
 - [xtraclabs/es-atom-feed-data](https://github.com/xtraclabs/es-atom-feed-data): 1.48 MB<br/>  (1.47 MB git / 0.01 MB code)
 - [xtracdev/goes](https://github.com/xtracdev/goes): 1.23 MB<br/>  (1.18 MB git / 0.05 MB code)
-- [looplab/eventhorizon](https://github.com/looplab/eventhorizon): 0.77 MB<br/>  (0.52 MB git / 0.25 MB code)
+- [looplab/eventhorizon](https://github.com/looplab/eventhorizon): 0.81 MB<br/>  (0.56 MB git / 0.25 MB code)
 - [mbucc/cqrs](https://github.com/mbucc/cqrs): 0.33 MB<br/>  (0.29 MB git / 0.05 MB code)
 - [rogerclotet/graceful-restart](https://github.com/rogerclotet/graceful-restart): 0.31 MB<br/>  (0.09 MB git / 0.22 MB code)
 - [cloudnativego/drones-events](https://github.com/cloudnativego/drones-events): 0.27 MB<br/>  (0.25 MB git / 0.03 MB code)
@@ -153,8 +155,8 @@ The main purpose is reading / learning / teaching.
 - [xtracdev/es-atom-data](https://github.com/xtracdev/es-atom-data): 0.12 MB<br/>  (0.07 MB git / 0.05 MB code)
 - [sunrongya/eventsourcing](https://github.com/sunrongya/eventsourcing): 0.12 MB<br/>  (0.05 MB git / 0.07 MB code)
 - [xtracdev/orapub](https://github.com/xtracdev/orapub): 0.11 MB<br/>  (0.08 MB git / 0.03 MB code)
+- [hellofresh/goengine](https://github.com/hellofresh/goengine): 0.11 MB<br/>  (0.08 MB git / 0.03 MB code)
 - [mishudark/eventhus](https://github.com/mishudark/eventhus): 0.11 MB<br/>  (0.08 MB git / 0.03 MB code)
-- [hellofresh/goengine](https://github.com/hellofresh/goengine): 0.10 MB<br/>  (0.07 MB git / 0.03 MB code)
 - [eventsourcedb/eventsourcedb](https://github.com/eventsourcedb/eventsourcedb): 0.09 MB<br/>  (0.06 MB git / 0.03 MB code)
 - [xozrc/eventsourcing](https://github.com/xozrc/eventsourcing): 0.09 MB<br/>  (0.05 MB git / 0.04 MB code)
 - [mcveat/event-sourcing-cqrs](https://github.com/mcveat/event-sourcing-cqrs): 0.09 MB<br/>  (0.06 MB git / 0.03 MB code)
@@ -170,6 +172,7 @@ The main purpose is reading / learning / teaching.
 - [jostly/cqrs-bookstore-go](https://github.com/jostly/cqrs-bookstore-go): 0.05 MB<br/>  (0.03 MB git / 0.02 MB code)
 - [thebookofeveryone/cqrs](https://github.com/thebookofeveryone/cqrs): 0.05 MB<br/>  (0.04 MB git / 0.01 MB code)
 - [andrewwebber/cqrs-scaleout](https://github.com/andrewwebber/cqrs-scaleout): 0.04 MB<br/>  (0.03 MB git / 0.01 MB code)
+- [dc0d/sector](https://github.com/dc0d/sector): 0.04 MB<br/>  (0.03 MB git / 0.01 MB code)
 - [xtracdev/es-data-pub](https://github.com/xtracdev/es-data-pub): 0.04 MB<br/>  (0.03 MB git / 0.01 MB code)
 - [YuukanOO/go-toolbelt](https://github.com/YuukanOO/go-toolbelt): 0.04 MB<br/>  (0.03 MB git / 0.01 MB code)
 - [berkaroad/ddd](https://github.com/berkaroad/ddd): 0.04 MB<br/>  (0.03 MB git / 0.01 MB code)
