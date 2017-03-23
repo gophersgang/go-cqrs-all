@@ -34,6 +34,7 @@ https://github.com/sclasen/swfsm
 https://github.com/sunrongya/eventsourcing
 https://github.com/sunrongya/milife
 https://github.com/thebookofeveryone/cqrs
+https://github.com/uber-go/dig
 https://github.com/vizidrix/eventstore
 https://github.com/vizidrix/gocqrs
 https://github.com/xozrc/cqrs
