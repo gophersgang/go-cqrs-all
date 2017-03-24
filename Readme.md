@@ -50,6 +50,7 @@ The main purpose is reading / learning / teaching.
 - [mcveat/event-sourcing-cqrs](https://github.com/mcveat/event-sourcing-cqrs) - Example of Event Sourcing and CQRS in golang <br/> ( 2016-02-05 / 29 commits / 0 stars )
 - [mishudark/eventhus](https://github.com/mishudark/eventhus) - CQRS/Event Sourcing made easy - Go <br/> ( 2017-02-06 / 74 commits / 3 stars )
 - [moul/cleanarch](https://github.com/moul/cleanarch) - :shower: the clean architecture, optimised for Golang <br/> ( 2016-09-21 / 60 commits / 0 stars )
+- [nicdex/goes](https://github.com/nicdex/goes) - GoLang implementation of simple EventStore <br/> ( 2017-02-12 / 34 commits / 2 stars )
 - [pjvds/go-cqrs](https://github.com/pjvds/go-cqrs) - Example of CQRS on domain level in Go <br/> ( 2015-04-28 / 159 commits / 6 stars )
 - [robertreppel/hist](https://github.com/robertreppel/hist) - A simple event store for event sourcing in Go. <br/> ( 2016-07-08 / 35 commits / 1 stars )
 - [rogerclotet/cqrs](https://github.com/rogerclotet/cqrs) - Basic CQRS implementation in go <br/> ( 2016-08-16 / 8 commits / 0 stars )
@@ -85,6 +86,7 @@ The main purpose is reading / learning / teaching.
 - [xtraclabs/appreg](https://github.com/xtraclabs/appreg): 2017-03-17 <br/> Sample application registration app demonstrating event sourcing and CQRS
 - [diegogub/gocqrs](https://github.com/diegogub/gocqrs): 2017-03-13 <br/> CQRS bootstrap framework for Go. Basic CRUD events already included.
 - [dc0d/sector](https://github.com/dc0d/sector): 2017-03-06 <br/> Simple Injector; Dependency Injection
+- [nicdex/goes](https://github.com/nicdex/goes): 2017-02-12 <br/> GoLang implementation of simple EventStore
 - [mishudark/eventhus](https://github.com/mishudark/eventhus): 2017-02-06 <br/> CQRS/Event Sourcing made easy - Go
 - [yuukanoo/go-toolbelt](https://github.com/yuukanoo/go-toolbelt): 2017-02-01 <br/> Golang toolbelt aimed at Domain Driven Design
 - [xtracdev/es-atom-data](https://github.com/xtracdev/es-atom-data): 2017-01-05 <br/> Structure published events for atom publication
@@ -163,6 +165,7 @@ The main purpose is reading / learning / teaching.
 - [sunrongya/eventsourcing](https://github.com/sunrongya/eventsourcing): 0.12 MB<br/>  (0.05 MB git / 0.07 MB code)
 - [xtracdev/orapub](https://github.com/xtracdev/orapub): 0.11 MB<br/>  (0.08 MB git / 0.03 MB code)
 - [mishudark/eventhus](https://github.com/mishudark/eventhus): 0.11 MB<br/>  (0.08 MB git / 0.03 MB code)
+- [nicdex/goes](https://github.com/nicdex/goes): 0.10 MB<br/>  (0.06 MB git / 0.04 MB code)
 - [eventsourcedb/eventsourcedb](https://github.com/eventsourcedb/eventsourcedb): 0.09 MB<br/>  (0.06 MB git / 0.03 MB code)
 - [xozrc/eventsourcing](https://github.com/xozrc/eventsourcing): 0.09 MB<br/>  (0.05 MB git / 0.04 MB code)
 - [mcveat/event-sourcing-cqrs](https://github.com/mcveat/event-sourcing-cqrs): 0.09 MB<br/>  (0.06 MB git / 0.03 MB code)
