@@ -51,6 +51,7 @@ The main purpose is reading / learning / teaching.
 - [mishudark/eventhus](https://github.com/mishudark/eventhus) - CQRS/Event Sourcing made easy - Go <br/> ( 2017-02-06 / 74 commits / 3 stars )
 - [moul/cleanarch](https://github.com/moul/cleanarch) - :shower: the clean architecture, optimised for Golang <br/> ( 2016-09-21 / 60 commits / 0 stars )
 - [pjvds/go-cqrs](https://github.com/pjvds/go-cqrs) - Example of CQRS on domain level in Go <br/> ( 2015-04-28 / 159 commits / 6 stars )
+- [robertreppel/hist](https://github.com/robertreppel/hist) - A simple event store for event sourcing in Go. <br/> ( 2016-07-08 / 35 commits / 1 stars )
 - [rogerclotet/cqrs](https://github.com/rogerclotet/cqrs) - Basic CQRS implementation in go <br/> ( 2016-08-16 / 8 commits / 0 stars )
 - [rogerclotet/graceful-restart](https://github.com/rogerclotet/graceful-restart) - This is an effort to show a way of doing live code deployment with 0 downtime in a CQRS environment <br/> ( 2016-08-16 / 15 commits / 0 stars )
 - [saem/afterme](https://github.com/saem/afterme) - --- <br/> ( 2014-01-14 / 28 commits / 1 stars )
@@ -58,7 +59,7 @@ The main purpose is reading / learning / teaching.
 - [sunrongya/eventsourcing](https://github.com/sunrongya/eventsourcing) - cqrs+eventsourcing <br/> ( 2017-01-05 / 11 commits / 0 stars )
 - [sunrongya/milife](https://github.com/sunrongya/milife) - 商品交易项目，演示DDD+TDD+CQRS+Event Sourcing技术 <br/> ( 2017-01-05 / 12 commits / 0 stars )
 - [thebookofeveryone/cqrs](https://github.com/thebookofeveryone/cqrs) - CQRS Example <br/> ( 2016-01-12 / 34 commits / 2 stars )
-- [uber-go/dig](https://github.com/uber-go/dig) - [BETA] DIG: Dependency Injection Graph <br/> ( 2017-03-23 / 19 commits / 0 stars )
+- [uber-go/dig](https://github.com/uber-go/dig) - [BETA] DIG: Dependency Injection Graph <br/> ( 2017-03-23 / 21 commits / 0 stars )
 - [vizidrix/eventstore](https://github.com/vizidrix/eventstore) - An opinionated and very basic, read only, file based event store for GO <br/> ( 2014-07-26 / 59 commits / 0 stars )
 - [vizidrix/gocqrs](https://github.com/vizidrix/gocqrs) - CQRS (Command Query Responsibility Separation) / ES (Event Sourcing) utilities for Go <br/> ( 2014-10-01 / 108 commits / 1 stars )
 - [xozrc/cqrs](https://github.com/xozrc/cqrs) - cqrs <br/> ( 2016-06-29 / 13 commits / 0 stars )
@@ -76,9 +77,9 @@ The main purpose is reading / learning / teaching.
 
 ### By Activity
 <!-- ACTIVITY_LIST -->
+- [uber-go/dig](https://github.com/uber-go/dig): 2017-03-23 <br/> [BETA] DIG: Dependency Injection Graph
 - [xtracdev/es-atom-pub](https://github.com/xtracdev/es-atom-pub): 2017-03-23 <br/> Atom publication services
 - [hellofresh/goengine](https://github.com/hellofresh/goengine): 2017-03-23 <br/> Engine provides you all the capabilities to build an Event sourced application in go
-- [uber-go/dig](https://github.com/uber-go/dig): 2017-03-23 <br/> [BETA] DIG: Dependency Injection Graph
 - [looplab/eventhorizon](https://github.com/looplab/eventhorizon): 2017-03-22 <br/> CQRS/ES toolkit for Go
 - [xtracdev/es-data-pub](https://github.com/xtracdev/es-data-pub): 2017-03-17 <br/> Event store publishing
 - [xtraclabs/appreg](https://github.com/xtraclabs/appreg): 2017-03-17 <br/> Sample application registration app demonstrating event sourcing and CQRS
@@ -102,6 +103,7 @@ The main purpose is reading / learning / teaching.
 - [rogerclotet/graceful-restart](https://github.com/rogerclotet/graceful-restart): 2016-08-16 <br/> This is an effort to show a way of doing live code deployment with 0 downtime in a CQRS environment
 - [jetbasrawi/go.geteventstore.testfeed](https://github.com/jetbasrawi/go.geteventstore.testfeed): 2016-08-08 <br/> A mock handler simulating GetEventStore Atom feeds for event streams.
 - [diegogub/esgo](https://github.com/diegogub/esgo): 2016-07-15 <br/> Eventstoring generic driver
+- [robertreppel/hist](https://github.com/robertreppel/hist): 2016-07-08 <br/> A simple event store for event sourcing in Go.
 - [isuruceanu/gocqrs](https://github.com/isuruceanu/gocqrs): 2016-06-29 <br/> Golang implementation of CQRS architectural patern with Event Sourcing
 - [xozrc/cqrs](https://github.com/xozrc/cqrs): 2016-06-29 <br/> cqrs
 - [xozrc/eventsourcing](https://github.com/xozrc/eventsourcing): 2016-06-13 <br/> eventsourcing
@@ -139,6 +141,7 @@ The main purpose is reading / learning / teaching.
 - [xtracdev/es-atom-pub](https://github.com/xtracdev/es-atom-pub): 3.11 MB<br/>  (3.03 MB git / 0.08 MB code)
 - [xozrc/cqrs](https://github.com/xozrc/cqrs): 2.75 MB<br/>  (2.70 MB git / 0.05 MB code)
 - [duskhacker/cqrsnu](https://github.com/duskhacker/cqrsnu): 2.64 MB<br/>  (0.62 MB git / 2.02 MB code)
+- [robertreppel/hist](https://github.com/robertreppel/hist): 1.88 MB<br/>  (1.83 MB git / 0.05 MB code)
 - [vizidrix/eventstore](https://github.com/vizidrix/eventstore): 1.76 MB<br/>  (1.47 MB git / 0.28 MB code)
 - [xtraclabs/es-atom-feed-data](https://github.com/xtraclabs/es-atom-feed-data): 1.48 MB<br/>  (1.47 MB git / 0.01 MB code)
 - [xtracdev/goes](https://github.com/xtracdev/goes): 1.23 MB<br/>  (1.18 MB git / 0.05 MB code)
@@ -152,9 +155,9 @@ The main purpose is reading / learning / teaching.
 - [pjvds/go-cqrs](https://github.com/pjvds/go-cqrs): 0.19 MB<br/>  (0.14 MB git / 0.05 MB code)
 - [sunrongya/milife](https://github.com/sunrongya/milife): 0.18 MB<br/>  (0.07 MB git / 0.11 MB code)
 - [vizidrix/gocqrs](https://github.com/vizidrix/gocqrs): 0.17 MB<br/>  (0.14 MB git / 0.03 MB code)
-- [uber-go/dig](https://github.com/uber-go/dig): 0.16 MB<br/>  (0.12 MB git / 0.04 MB code)
+- [uber-go/dig](https://github.com/uber-go/dig): 0.17 MB<br/>  (0.13 MB git / 0.03 MB code)
 - [rogerclotet/cqrs](https://github.com/rogerclotet/cqrs): 0.14 MB<br/>  (0.09 MB git / 0.05 MB code)
-- [hellofresh/goengine](https://github.com/hellofresh/goengine): 0.13 MB<br/>  (0.09 MB git / 0.04 MB code)
+- [hellofresh/goengine](https://github.com/hellofresh/goengine): 0.13 MB<br/>  (0.08 MB git / 0.04 MB code)
 - [saem/afterme](https://github.com/saem/afterme): 0.12 MB<br/>  (0.07 MB git / 0.06 MB code)
 - [xtracdev/es-atom-data](https://github.com/xtracdev/es-atom-data): 0.12 MB<br/>  (0.07 MB git / 0.05 MB code)
 - [sunrongya/eventsourcing](https://github.com/sunrongya/eventsourcing): 0.12 MB<br/>  (0.05 MB git / 0.07 MB code)
