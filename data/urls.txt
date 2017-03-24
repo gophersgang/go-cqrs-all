@@ -27,6 +27,7 @@ https://github.com/mcveat/event-sourcing-cqrs
 https://github.com/mishudark/eventhus
 https://github.com/moul/cleanarch
 https://github.com/pjvds/go-cqrs
+https://github.com/robertreppel/hist
 https://github.com/rogerclotet/cqrs
 https://github.com/rogerclotet/graceful-restart
 https://github.com/saem/afterme
