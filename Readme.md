@@ -22,6 +22,7 @@ The main purpose is reading / learning / teaching.
 
 ### Projects
 <!-- PROJECTS_LIST -->
+- [altairsix/eventsource](https://github.com/altairsix/eventsource) - Go implementation of an event sourcing library <br/> ( 2017-05-16 / 2 commits / 1 stars )
 - [andrewwebber/cqrs](https://github.com/andrewwebber/cqrs) - cqrs framework in go <br/> ( 2017-04-18 / 71 commits / 8 stars )
 - [andrewwebber/cqrs-scaleout](https://github.com/andrewwebber/cqrs-scaleout) - CQRS multi worker example <br/> ( 2015-06-02 / 8 commits / 0 stars )
 - [atitsbest/go_cqrs](https://github.com/atitsbest/go_cqrs) - CQRS Test in Go <br/> ( 2014-06-06 / 18 commits / 0 stars )
@@ -48,7 +49,7 @@ The main purpose is reading / learning / teaching.
 - [looplab/eventhorizon](https://github.com/looplab/eventhorizon) - CQRS/ES toolkit for Go <br/> ( 2017-04-11 / 268 commits / 43 stars )
 - [mbucc/cqrs](https://github.com/mbucc/cqrs) - A golang starter kit for working with CQRS.  http://cqrs.nu/ <br/> ( 2015-07-19 / 176 commits / 1 stars )
 - [mcveat/event-sourcing-cqrs](https://github.com/mcveat/event-sourcing-cqrs) - Example of Event Sourcing and CQRS in golang <br/> ( 2016-02-05 / 29 commits / 0 stars )
-- [mishudark/eventhus](https://github.com/mishudark/eventhus) - CQRS/Event Sourcing made easy - Go <br/> ( 2017-02-06 / 74 commits / 3 stars )
+- [mishudark/eventhus](https://github.com/mishudark/eventhus) - CQRS/Event Sourcing made easy - Go <br/> ( 2017-02-06 / 74 commits / 5 stars )
 - [moul/cleanarch](https://github.com/moul/cleanarch) - :shower: the clean architecture, optimised for Golang <br/> ( 2016-09-21 / 60 commits / 0 stars )
 - [nicdex/goes](https://github.com/nicdex/goes) - GoLang implementation of simple EventStore <br/> ( 2017-02-12 / 34 commits / 2 stars )
 - [pjvds/go-cqrs](https://github.com/pjvds/go-cqrs) - Example of CQRS on domain level in Go <br/> ( 2015-04-28 / 159 commits / 6 stars )
@@ -78,6 +79,7 @@ The main purpose is reading / learning / teaching.
 
 ### By Activity
 <!-- ACTIVITY_LIST -->
+- [altairsix/eventsource](https://github.com/altairsix/eventsource): 2017-05-16 <br/> Go implementation of an event sourcing library
 - [diegogub/gocqrs](https://github.com/diegogub/gocqrs): 2017-05-11 <br/> CQRS bootstrap framework for Go. Basic CRUD events already included.
 - [uber-go/dig](https://github.com/uber-go/dig): 2017-05-05 <br/> [BETA] dig: dependency injection framework for Go
 - [sclasen/swfsm](https://github.com/sclasen/swfsm): 2017-04-25 <br/> [golang] simple workflow finite state machines
@@ -163,6 +165,7 @@ The main purpose is reading / learning / teaching.
 - [xtracdev/es-atom-data](https://github.com/xtracdev/es-atom-data): 0.12 MB<br/>  (0.07 MB git / 0.05 MB code)
 - [hellofresh/goengine](https://github.com/hellofresh/goengine): 0.12 MB<br/>  (0.08 MB git / 0.04 MB code)
 - [sunrongya/eventsourcing](https://github.com/sunrongya/eventsourcing): 0.12 MB<br/>  (0.05 MB git / 0.07 MB code)
+- [altairsix/eventsource](https://github.com/altairsix/eventsource): 0.12 MB<br/>  (0.05 MB git / 0.07 MB code)
 - [xtracdev/orapub](https://github.com/xtracdev/orapub): 0.11 MB<br/>  (0.08 MB git / 0.03 MB code)
 - [mishudark/eventhus](https://github.com/mishudark/eventhus): 0.11 MB<br/>  (0.08 MB git / 0.03 MB code)
 - [nicdex/goes](https://github.com/nicdex/goes): 0.10 MB<br/>  (0.06 MB git / 0.04 MB code)
